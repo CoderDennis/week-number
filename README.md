@@ -12,3 +12,7 @@ Requires macOS 14+ and the Swift toolchain (Xcode Command Line Tools are enough)
 ./build.sh --install  # also copies it to ~/Applications
 open ~/Applications/WeekNumber.app
 ```
+
+## License
+
+MIT — see [LICENSE.md](LICENSE.md).
