@@ -24,6 +24,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(loginItem)
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
         statusItem.menu = menu
+        // Match the menu bar clock: menu bar size, regular weight, monospaced digits.
+        statusItem.button?.font = .monospacedDigitSystemFont(
+            ofSize: NSFont.menuBarFont(ofSize: 0).pointSize, weight: .regular)
 
         // Any of these can mean the date changed under us.
         let center = NotificationCenter.default
