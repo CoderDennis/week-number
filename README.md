@@ -1,5 +1,7 @@
 # WeekNumber
 
+As an American living in Sweden who doesn't think in week numbers, it's challenging to have a frame of reference when people here say something will happen in week X. I found a few apps that had this feature, but they all seemed like overkill. This app is simple and has only one purpose, which is to show the week number in the macOS menu bar. At least if I get used to seeing the current week, I should start training my brain to think more in weeks.
+
 A tiny macOS menu bar app that shows the current ISO-8601 week number (e.g. `W43`).
 Click it for today's date, a Launch at Login toggle, and Quit.
 
